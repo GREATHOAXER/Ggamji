@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4068D162823B85A00ADA84B /* Images.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4068D142823B85A00ADA84B /* Images.xcdatamodeld */; };
+		D4068D182823C1B000ADA84B /* CoredataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4068D172823C1B000ADA84B /* CoredataView.swift */; };
+		D4068D1B2823C55A00ADA84B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4068D1A2823C55A00ADA84B /* CoreDataManager.swift */; };
+		D4068D1D2823F44500ADA84B /* NameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4068D1C2823F44500ADA84B /* NameDetailView.swift */; };
 		D4394CC228211FB9008FF7EF /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4394CC128211FB9008FF7EF /* CustomButtonStyle.swift */; };
 		D4394CC42821224C008FF7EF /* CustomButtonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4394CC32821224C008FF7EF /* CustomButtonTestView.swift */; };
 		D43B7290281AFF21001A0C38 /* GgamjiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B728F281AFF21001A0C38 /* GgamjiApp.swift */; };
@@ -15,10 +19,13 @@
 		D43B7297281AFF22001A0C38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43B7296281AFF22001A0C38 /* Preview Assets.xcassets */; };
 		D43B729E281BAB4A001A0C38 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B729D281BAB4A001A0C38 /* Launch Screen.storyboard */; };
 		D48C3F702821CDEA0015819B /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C3F6F2821CDEA0015819B /* NextView.swift */; };
-		D48C3F722822475E0015819B /* NextViewPreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C3F712822475E0015819B /* NextViewPreviewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4068D152823B85A00ADA84B /* Images.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Images.xcdatamodel; sourceTree = "<group>"; };
+		D4068D172823C1B000ADA84B /* CoredataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataView.swift; sourceTree = "<group>"; };
+		D4068D1A2823C55A00ADA84B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D4068D1C2823F44500ADA84B /* NameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDetailView.swift; sourceTree = "<group>"; };
 		D4394CC128211FB9008FF7EF /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		D4394CC32821224C008FF7EF /* CustomButtonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonTestView.swift; sourceTree = "<group>"; };
 		D43B728C281AFF21001A0C38 /* Ggamji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ggamji.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,7 +36,6 @@
 		D43B729D281BAB4A001A0C38 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D43B729F281BAB6D001A0C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D48C3F6F2821CDEA0015819B /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
-		D48C3F712822475E0015819B /* NextViewPreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewPreviewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4068D192823C54100ADA84B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D4068D1A2823C55A00ADA84B /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		D43B7283281AFF21001A0C38 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +76,16 @@
 		D43B728E281AFF21001A0C38 /* Ggamji */ = {
 			isa = PBXGroup;
 			children = (
+				D4068D192823C54100ADA84B /* Manager */,
 				D43B729F281BAB6D001A0C38 /* Info.plist */,
+				D4068D142823B85A00ADA84B /* Images.xcdatamodeld */,
 				D43B728F281AFF21001A0C38 /* GgamjiApp.swift */,
 				D4394CC128211FB9008FF7EF /* CustomButtonStyle.swift */,
 				D4394CC32821224C008FF7EF /* CustomButtonTestView.swift */,
 				D43B7291281AFF21001A0C38 /* originalView.swift */,
-				D48C3F712822475E0015819B /* NextViewPreviewContainer.swift */,
 				D48C3F6F2821CDEA0015819B /* NextView.swift */,
+				D4068D1C2823F44500ADA84B /* NameDetailView.swift */,
+				D4068D172823C1B000ADA84B /* CoredataView.swift */,
 				D43B7293281AFF22001A0C38 /* Assets.xcassets */,
 				D43B729D281BAB4A001A0C38 /* Launch Screen.storyboard */,
 				D43B7295281AFF22001A0C38 /* Preview Content */,
@@ -157,9 +174,12 @@
 			files = (
 				D43B7292281AFF21001A0C38 /* originalView.swift in Sources */,
 				D48C3F702821CDEA0015819B /* NextView.swift in Sources */,
-				D48C3F722822475E0015819B /* NextViewPreviewContainer.swift in Sources */,
 				D4394CC228211FB9008FF7EF /* CustomButtonStyle.swift in Sources */,
+				D4068D182823C1B000ADA84B /* CoredataView.swift in Sources */,
+				D4068D162823B85A00ADA84B /* Images.xcdatamodeld in Sources */,
 				D4394CC42821224C008FF7EF /* CustomButtonTestView.swift in Sources */,
+				D4068D1D2823F44500ADA84B /* NameDetailView.swift in Sources */,
+				D4068D1B2823C55A00ADA84B /* CoreDataManager.swift in Sources */,
 				D43B7290281AFF21001A0C38 /* GgamjiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +385,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4068D142823B85A00ADA84B /* Images.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4068D152823B85A00ADA84B /* Images.xcdatamodel */,
+			);
+			currentVersion = D4068D152823B85A00ADA84B /* Images.xcdatamodel */;
+			path = Images.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D43B7284281AFF21001A0C38 /* Project object */;
 }

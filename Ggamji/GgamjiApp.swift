@@ -11,7 +11,7 @@ import SwiftUI
 struct GgamjiApp: App {
     var body: some Scene {
         WindowGroup {
-            test()
+            CoredataView(coreDM: CoreDataManager())
             }
         }
     }
