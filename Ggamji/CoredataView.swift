@@ -13,7 +13,7 @@ struct CoredataView: View {
     @State private var needsRefresh: Bool = false
     @State private var names: [Entity] = [Entity]()
     @State private var test: String = ""
-    @State private var test2: String = ""
+    @State private var test3: String = ""
     private func populateNames(){
         names = coreDM.getAllNames()
     }
